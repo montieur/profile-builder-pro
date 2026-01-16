@@ -22,7 +22,7 @@ const HeroSection = () => {
             <div className="w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-primary/30 glow-effect">
               <img
                 src={profileImage}
-                alt="José Marcos Alexandrino de Lima Filho"
+                alt="Jordy Jonathan Monteiro de Azevêdo"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -37,7 +37,7 @@ const HeroSection = () => {
               transition={{ delay: 0.2 }}
               className="text-muted-foreground text-sm uppercase tracking-widest mb-4"
             >
-              Analista de Infraestrutura I
+              Analista em Geoprocessamento I
             </motion.p>
 
             <motion.h1
@@ -46,8 +46,7 @@ const HeroSection = () => {
               transition={{ delay: 0.3 }}
               className="text-4xl md:text-5xl lg:text-6xl font-bold font-display mb-6"
             >
-              José Marcos{" "}
-              <span className="gradient-text">Alexandrino</span>
+              Jordy <span className="gradient-text">Monteiro</span>
             </motion.h1>
 
             <motion.p
@@ -56,8 +55,8 @@ const HeroSection = () => {
               transition={{ delay: 0.4 }}
               className="text-lg md:text-xl text-muted-foreground max-w-xl mb-8 leading-relaxed"
             >
-              Engenheiro de DevOps e Infraestrutura transformando sistemas em 
-              eficiência, segurança e valor para o negócio.
+              Especialista em Geotecnologias, Drones e SIG, transformando dados 
+              geoespaciais em soluções inteligentes para o território.
             </motion.p>
 
             <motion.div
@@ -67,7 +66,7 @@ const HeroSection = () => {
               className="flex flex-wrap gap-4 justify-center md:justify-start"
             >
               <a
-                href="https://www.linkedin.com/in/jos%C3%A9-marcos-alexandrino-de-lima-filho-1194671a3/"
+                href="https://www.linkedin.com/in/jordy-jonathan-monteiro-de-azev%C3%AAdo-78a1a6120/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary"
@@ -76,14 +75,14 @@ const HeroSection = () => {
                 LinkedIn
               </a>
               <a
-                href="mailto:josemarcoslimabr@gmail.com"
+                href="mailto:jordymrj@gmail.com"
                 className="btn-outline"
               >
                 <Mail size={20} />
                 Entrar em contato
               </a>
               <a
-                href="https://wa.me/5583991709602"
+                href="https://wa.me/5583996555296"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline"
