@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Server, Network, Shield, Database } from "lucide-react";
+import { Map, Plane, Database, Globe } from "lucide-react";
 
 const highlights = [
-  { icon: Server, label: "Virtualização & Redes" },
-  { icon: Network, label: "Monitoramento" },
-  { icon: Shield, label: "Segurança" },
-  { icon: Database, label: "Banco de Dados" },
+  { icon: Map, label: "Geoprocessamento" },
+  { icon: Plane, label: "Drones & RPAS" },
+  { icon: Database, label: "SIG & SIG Web" },
+  { icon: Globe, label: "Sensoriamento Remoto" },
 ];
 
 const AboutSection = () => {
@@ -32,28 +32,27 @@ const AboutSection = () => {
             <div className="md:col-span-2">
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Sou Engenheiro de DevOps e Infraestrutura com sólida experiência em 
-                  ambientes on-premises e híbridos, atuando no desenho, implementação 
-                  e operação de sistemas críticos. Tenho como foco construir 
-                  infraestruturas robustas, seguras e altamente disponíveis, garantindo 
-                  confiabilidade e performance para o negócio.
+                  Sou Analista em Geoprocessamento com mais de 10 anos de experiência 
+                  na área de geociências, atuando em projetos de mapeamento, análise 
+                  espacial e soluções territoriais. Possuo formação em Tecnologia em 
+                  Geoprocessamento pelo IFPB e especializações em Geomarketing, 
+                  Drones/VANTs e Gestão de Projetos.
                 </p>
                 <p>
-                  Atuo com virtualização e redes, projetando e administrando clusters 
-                  e ambientes virtualizados, além de redes corporativas seguras. Possuo 
-                  forte experiência em monitoramento, automação e integração de sistemas, 
-                  permitindo tomadas de decisão rápidas e operações mais eficientes.
+                  Tenho forte experiência em processamento digital de imagens aéreas 
+                  utilizando softwares como Metashape e Drone2Map, além de proficiência 
+                  na plataforma ESRI (ArcGIS, ArcGIS Pro, ArcGIS Online) e QGIS para 
+                  análise e manipulação de dados geoespaciais.
                 </p>
                 <p>
-                  No contexto de plataforma e back-end, trabalho com stacks web, bancos 
-                  de dados, estratégias de backup, recuperação de desastres e integração 
-                  com ferramentas corporativas.
+                  Atuo com planejamento e pilotagem de drones para captura de imagens 
+                  aéreas, aerofotogrametria, cartografia digital, produção de mapas 
+                  temáticos e modelagem geográfica.
                 </p>
                 <p className="text-foreground font-medium">
-                  Minha prioridade é traduzir a infraestrutura em valor real para a 
-                  empresa, com foco em automação, hardening de segurança, backup 
-                  eficiente e métricas claras para otimizar operações e impulsionar 
-                  o crescimento.
+                  Minha missão é transformar dados geoespaciais em inteligência 
+                  territorial, apoiando a tomada de decisão com precisão e inovação 
+                  tecnológica.
                 </p>
               </div>
             </div>

@@ -4,53 +4,36 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    title: "Virtualização e Infraestrutura",
-    skills: ["Proxmox", "VMware ESXi", "XCP-ng", "Xen Project", "VirtualBox"],
+    title: "Plataforma ESRI",
+    skills: ["ArcGIS Pro", "ArcGIS Online", "ArcMap", "ArcGIS Survey123", "ArcGIS Urban", "Drone2Map", "ArcGIS Enterprise"],
   },
   {
-    title: "Redes e Segurança",
-    skills: [
-      "pfSense",
-      "Mikrotik",
-      "OpenVPN",
-      "iptables",
-      "Check Point",
-      "Kaspersky",
-      "Radmin VPN",
-      "Redes Corporativas",
-    ],
+    title: "SIG & Análise Espacial",
+    skills: ["QGIS", "Análise Espacial", "Modelagem Geográfica", "Cartografia Digital", "Mapas Temáticos", "SIG Web"],
   },
   {
-    title: "Monitoramento e Observabilidade",
-    skills: ["Zabbix", "Grafana", "OCS Inventory", "Monitoramento Proativo"],
+    title: "Drones & Aerofotogrametria",
+    skills: ["Pilotagem de RPAS", "Metashape (Agisoft)", "Planejamento de Voos", "Processamento de Imagens Aéreas", "MDT/MDS", "Ortofotos"],
   },
   {
-    title: "Web, Plataforma e Back-end",
-    skills: ["Nginx", "Apache", "Administração de Servidores"],
+    title: "Sensoriamento Remoto",
+    skills: ["Processamento Digital de Imagens", "Análise de Cobertura Vegetal", "Monitoramento Territorial"],
   },
   {
-    title: "Bancos de Dados",
-    skills: ["PostgreSQL", "Supabase", "MongoDB", "SQLite"],
+    title: "Topografia",
+    skills: ["Levantamentos Topográficos", "Geração de Modelos 3D", "Cabeamento Estruturado"],
   },
   {
-    title: "Backup, Storage e DR",
-    skills: ["Proxmox Backup Server", "QNAP System", "TrueNAS", "Disaster Recovery"],
+    title: "Formação Acadêmica",
+    skills: ["Tecnologia em Geoprocessamento (IFPB)", "Esp. Geomarketing", "Esp. VANTs e Drones", "MBA Gestão de Projetos"],
   },
   {
-    title: "Automação e Integrações",
-    skills: ["n8n", "WhatsApp API", "Power Automate", "ArcGIS Enterprise", "SharePoint"],
-  },
-  {
-    title: "CFTV e Redes IP",
-    skills: ["Câmeras IP", "Cabeamento Estruturado", "Sistemas CFTV"],
-  },
-  {
-    title: "Low-Code / No-Code",
-    skills: ["Lovable", "Bolt", "Cursor", "Stitch", "Figma", "Builder.io"],
+    title: "Certificações",
+    skills: ["CORPAS – ENAP", "Spatial Data Science (Esri)", "ArcGIS Drone2Map", "Survey123", "Mapeamento com Drones"],
   },
   {
     title: "Idiomas",
-    skills: ["Português (Nativo)", "Inglês (Intermediário)"],
+    skills: ["Português (Nativo)", "Inglês (Básico)"],
   },
 ];
 

@@ -21,13 +21,13 @@ const ContactSection = () => {
           </h2>
 
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-12">
-            Estou sempre aberto a novas oportunidades e parcerias. 
-            Vamos conversar sobre como posso ajudar a transformar sua infraestrutura.
+            Estou disponível para novos projetos e parcerias em geotecnologias. 
+            Vamos conversar sobre como posso ajudar a transformar seus dados geoespaciais.
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <motion.a
-              href="mailto:josemarcoslimabr@gmail.com"
+              href="mailto:jordymrj@gmail.com"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.4, delay: 0.1 }}
@@ -38,12 +38,12 @@ const ContactSection = () => {
               </div>
               <span className="font-medium">E-mail</span>
               <span className="text-sm text-muted-foreground break-all">
-                josemarcoslimabr@gmail.com
+                jordymrj@gmail.com
               </span>
             </motion.a>
 
             <motion.a
-              href="tel:+5583991709602"
+              href="tel:+5583996555296"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.4, delay: 0.2 }}
@@ -54,12 +54,12 @@ const ContactSection = () => {
               </div>
               <span className="font-medium">Telefone</span>
               <span className="text-sm text-muted-foreground">
-                +55 83 99170-9602
+                +55 83 99655-5296
               </span>
             </motion.a>
 
             <motion.a
-              href="https://wa.me/5583991709602"
+              href="https://wa.me/5583996555296"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
@@ -77,7 +77,7 @@ const ContactSection = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/jos%C3%A9-marcos-alexandrino-de-lima-filho-1194671a3/"
+              href="https://www.linkedin.com/in/jordy-jonathan-monteiro-de-azev%C3%AAdo-78a1a6120/"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
