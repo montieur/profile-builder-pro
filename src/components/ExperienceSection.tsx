@@ -23,15 +23,6 @@ const experiences = [
     description: "Geotecnologia com foco em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento, pilotagem de drones e execução de voos. Processamento de imagens aéreas utilizando Metashape (Agisoft) e Drone2Map (ESRI).",
   },
   {
-    title: "Atendente Receptivo",
-    company: "LIQ",
-    location: "João Pessoa, Paraíba",
-    period: "Setembro de 2020 – Junho de 2021",
-    type: "Tempo integral",
-    current: false,
-    description: "Atendente receptivo do produto LATAM.",
-  },
-  {
     title: "Auxiliar de Processamento de Dados (Estágio)",
     company: "Tecgeo",
     location: "João Pessoa, Paraíba",
