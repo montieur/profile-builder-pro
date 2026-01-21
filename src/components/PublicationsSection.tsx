@@ -54,9 +54,17 @@ const events = [
   { name: "DroneShow Robotics, SpaceBR Show, MundoGEO Connect", location: "São Paulo/SP", year: "2025" },
   { name: "EU Esri Brasil 2025 (Encontro de Usuários Esri Brasil)", location: "Online", year: "2025" },
   { name: "1º GEOTEC – Encontro de Geotecnologias", location: "João Pessoa/PB", year: "2024" },
+  { name: "Esri User Conference", location: "San Diego/EUA (Online)", year: "2024" },
+  { name: "MundoGEO Connect 2024", location: "São Paulo/SP", year: "2024" },
   { name: "Water Summit 2023 – Location Intelligence para a Universalização do Saneamento", location: "João Pessoa/PB", year: "2023" },
+  { name: "Seminário Nacional de Cadastro Territorial Multifinalitário", location: "Brasília/DF", year: "2023" },
   { name: "I GEOSAB – Geotecnologias no Estudo da Cobertura Vegetal e Recursos Hídricos", location: "Campina Grande/PB", year: "2022" },
+  { name: "Workshop de Drones e VANTs aplicados ao Mapeamento", location: "João Pessoa/PB", year: "2022" },
+  { name: "XIX Simpósio Brasileiro de Sensoriamento Remoto", location: "Online", year: "2019" },
+  { name: "Feira DroneShow e MundoGEO Connect", location: "São Paulo/SP", year: "2018" },
+  { name: "XVII Simpósio Brasileiro de Sensoriamento Remoto", location: "João Pessoa/PB", year: "2015" },
   { name: "XXVI Congresso Brasileiro de Cartografia e V Congresso Brasileiro de Geoprocessamento", location: "Gramado/RS", year: "2015" },
+  { name: "I Seminário de Geotecnologias da Paraíba", location: "João Pessoa/PB", year: "2014" },
 ];
 
 const PublicationsSection = () => {
