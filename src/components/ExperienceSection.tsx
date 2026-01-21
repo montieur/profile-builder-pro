@@ -11,7 +11,7 @@ const experiences = [
     period: "Abril de 2025 – Atual",
     type: "Tempo integral",
     current: true,
-    description: "Atividades em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento e pilotagem de drones. Cartografia digital e produção de mapas temáticos.",
+    description: "Atividades em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento e pilotagem de drones para captura de imagens aéreas. Processamento de imagens utilizando Metashape e Drone2Map. Cartografia digital, produção de mapas temáticos e modelagem geográfica.",
   },
   {
     title: "Auxiliar de Processamento de Dados",
@@ -20,7 +20,7 @@ const experiences = [
     period: "Junho de 2021 – Março de 2025",
     type: "Tempo integral",
     current: false,
-    description: "Processamento de imagens aéreas utilizando Metashape e Drone2Map. Planejamento e execução de voos para captura de imagens.",
+    description: "Geotecnologia com foco em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento, pilotagem de drones e execução de voos. Processamento de imagens aéreas utilizando Metashape (Agisoft) e Drone2Map (ESRI).",
   },
   {
     title: "Atendente Receptivo",
@@ -47,7 +47,7 @@ const experiences = [
     period: "Abril de 2018 – Agosto de 2018",
     type: "Tempo integral",
     current: false,
-    description: "Planejamento e confecção de mapas de rotas escolares rurais do estado de Pernambuco.",
+    description: "Planejamento e confecção de mapas de rotas escolares rurais do estado de Pernambuco e composição de custos dos respectivos municípios.",
   },
   {
     title: "Analista em Geoprocessamento",
@@ -56,7 +56,7 @@ const experiences = [
     period: "Outubro de 2014 – Agosto de 2018",
     type: "Tempo integral",
     current: false,
-    description: "Instrução e processamento de imagens aéreas com PhotoScan/Metashape.",
+    description: "Instrução do software PhotoScan/Metashape para processamento de imagens aéreas (VANT/drone). Processamento de imagens aerofotogramétricas digitais.",
   },
 ];
 
