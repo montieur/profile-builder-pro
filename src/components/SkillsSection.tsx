@@ -5,35 +5,27 @@ import { useRef } from "react";
 const skillCategories = [
   {
     title: "Plataforma ESRI",
-    skills: ["ArcGIS Pro", "ArcGIS Online", "ArcMap", "ArcGIS Survey123", "ArcGIS Urban", "Drone2Map", "ArcGIS Enterprise"],
+    skills: ["ArcGIS Pro", "ArcGIS Online", "ArcMap", "ArcGIS Survey123", "ArcGIS Urban", "Drone2Map", "ArcGIS Enterprise", "Workflow Manager"],
   },
   {
     title: "SIG & Análise Espacial",
-    skills: ["QGIS", "Análise Espacial", "Modelagem Geográfica", "Cartografia Digital", "Mapas Temáticos", "SIG Web"],
+    skills: ["QGIS", "Análise Espacial", "Modelagem Geográfica", "Cartografia Digital", "Mapas Temáticos", "SIG Web", "Ciência de Dados Espaciais"],
   },
   {
     title: "Drones & Aerofotogrametria",
-    skills: ["Pilotagem de RPAS", "Metashape (Agisoft)", "Planejamento de Voos", "Processamento de Imagens Aéreas", "MDT/MDS", "Ortofotos"],
+    skills: ["Pilotagem de RPAS", "Metashape (Agisoft)", "Drone2Map (ESRI)", "Planejamento de Voos", "Processamento de Imagens Aéreas", "MDT/MDS", "Ortofotos", "Fotogrametria Digital"],
   },
   {
     title: "Sensoriamento Remoto",
-    skills: ["Processamento Digital de Imagens", "Análise de Cobertura Vegetal", "Monitoramento Territorial"],
+    skills: ["Processamento Digital de Imagens", "Análise de Cobertura Vegetal", "Monitoramento Territorial", "Análise Multitemporal"],
   },
   {
-    title: "Topografia",
-    skills: ["Levantamentos Topográficos", "Geração de Modelos 3D", "Cabeamento Estruturado"],
+    title: "Topografia & Modelos 3D",
+    skills: ["Levantamentos Topográficos", "Geração de Modelos 3D", "Aerotriangulação", "Modelagem de Terreno"],
   },
   {
-    title: "Formação Acadêmica",
-    skills: ["Tecnologia em Geoprocessamento (IFPB)", "Esp. Geomarketing", "Esp. VANTs e Drones", "MBA Gestão de Projetos"],
-  },
-  {
-    title: "Certificações",
-    skills: ["CORPAS – ENAP", "Spatial Data Science (Esri)", "ArcGIS Drone2Map", "Survey123", "Mapeamento com Drones"],
-  },
-  {
-    title: "Idiomas",
-    skills: ["Português (Nativo)", "Inglês (Básico)"],
+    title: "Coleta de Dados",
+    skills: ["ArcGIS Survey123", "Coleta Georreferenciada", "Formulários de Campo", "GPS/GNSS"],
   },
 ];
 
