@@ -33,20 +33,6 @@ const technicalWorks = [
     year: "2024",
   },
   {
-    role: "Autor",
-    title: "Implementação de WebGIS para Monitoramento de Frotas e Otimização de Rotas em Tempo Real",
-    event: "MundoGEO Connect 2024",
-    location: "São Paulo/SP",
-    year: "2024",
-  },
-  {
-    role: "Autor",
-    title: "Aerofotogrametria com RPAS para Atualização Cadastral: Metodologia e Resultados Práticos",
-    event: "DroneShow 2023",
-    location: "São Paulo/SP",
-    year: "2023",
-  },
-  {
     role: "Coautor",
     title: "O uso de geotecnologias como suporte no processo de regularização fundiária de interesse social na área urbana do município de João Pessoa – PB",
     event: "XVIII Simpósio Brasileiro de Sensoriamento Remoto",
