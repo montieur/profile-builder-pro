@@ -11,7 +11,7 @@ const experiences = [
     period: "Abril de 2025 – Atual",
     type: "Tempo integral",
     current: true,
-    description: "Atividades em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento e pilotagem de drones para captura de imagens aéreas. Processamento de imagens utilizando Metashape e Drone2Map. Cartografia digital, produção de mapas temáticos e modelagem geográfica.",
+    description: "Atividades em SIG, SIG Web, aerofotogrametria, topografia e Plataforma ESRI. Planejamento e pilotagem de drones para captura de imagens aéreas. Processamento de imagens utilizando Metashape e Drone2Map. Cartografia digital, produção de mapas temáticos e modelagem geográfica. Responsável pela solução de imageamento terrestre 360°, incluindo captura, processamento e integração de imagens panorâmicas georreferenciadas.",
   },
   {
     title: "Auxiliar de Processamento de Dados",
