@@ -21,8 +21,8 @@ const ContactSection = () => {
           </h2>
 
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-12">
-            Estou disponível para novos projetos e parcerias em geotecnologias. 
-            Vamos conversar sobre como posso ajudar a transformar seus dados geoespaciais.
+            Quer saber mais sobre minha trajetória ou trocar ideias sobre geotecnologias? 
+            Fique à vontade para entrar em contato.
           </p>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
