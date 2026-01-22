@@ -16,6 +16,10 @@ const skillCategories = [
     skills: ["Pilotagem de RPAS", "Metashape (Agisoft)", "Drone2Map (ESRI)", "Planejamento de Voos", "Processamento de Imagens Aéreas", "MDT/MDS", "Ortofotos", "Fotogrametria Digital"],
   },
   {
+    title: "Imageamento Terrestre 360°",
+    skills: ["Captura de Imagens 360°", "Câmeras Panorâmicas", "Street View", "Mapeamento Mobile", "Georreferenciamento de Imagens", "Inspeção Visual Remota", "Documentação de Campo"],
+  },
+  {
     title: "Sensoriamento Remoto",
     skills: ["Processamento Digital de Imagens", "Análise de Cobertura Vegetal", "Monitoramento Territorial", "Análise Multitemporal"],
   },
