@@ -11,12 +11,6 @@ const publications = [
     year: "2019",
   },
   {
-    type: "Artigo Científico",
-    title: "Análise multitemporal da expansão urbana e seus impactos na cobertura vegetal utilizando técnicas de sensoriamento remoto",
-    venue: "Revista Brasileira de Cartografia",
-    year: "2018",
-  },
-  {
     type: "TCC",
     title: "Aplicação de SIG na Gestão Territorial: Estudo de Caso no Município de João Pessoa",
     venue: "IFPB - Instituto Federal da Paraíba",
