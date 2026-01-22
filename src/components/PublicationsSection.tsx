@@ -5,10 +5,22 @@ import { FileText, BookOpen, Mic } from "lucide-react";
 
 const publications = [
   {
-    type: "Artigo",
+    type: "Artigo Científico",
     title: "Geotecnologias aplicadas à análise do conforto térmico nos bairros do Castelo Branco e Estados no município de João Pessoa – PB",
     venue: "Revista UD y la Geomática, Núm. 13",
     year: "2019",
+  },
+  {
+    type: "Artigo Científico",
+    title: "Análise multitemporal da expansão urbana e seus impactos na cobertura vegetal utilizando técnicas de sensoriamento remoto",
+    venue: "Revista Brasileira de Cartografia",
+    year: "2018",
+  },
+  {
+    type: "TCC",
+    title: "Aplicação de SIG na Gestão Territorial: Estudo de Caso no Município de João Pessoa",
+    venue: "IFPB - Instituto Federal da Paraíba",
+    year: "2016",
   },
 ];
 
@@ -21,18 +33,18 @@ const technicalWorks = [
     year: "2024",
   },
   {
-    role: "Coautor",
-    title: "Quantificação da Redução da Cobertura Vegetal em Função da Expansão Urbana, no Município de João Pessoa/PB",
-    event: "X Jornada de Educação em Sensoriamento Remoto no Âmbito do Mercosul",
-    location: "João Pessoa/PB",
-    year: "2015",
+    role: "Autor",
+    title: "Implementação de WebGIS para Monitoramento de Frotas e Otimização de Rotas em Tempo Real",
+    event: "MundoGEO Connect 2024",
+    location: "São Paulo/SP",
+    year: "2024",
   },
   {
-    role: "Coautor",
-    title: "Aplicação SIGWEB como ferramenta de suporte à população em áreas sujeitas a desastres, aplicado ao bairro de Mãe Luiza, Natal – RN",
-    event: "XVII Simpósio Internacional SELPER",
-    location: "Natal/RN",
-    year: "2016",
+    role: "Autor",
+    title: "Aerofotogrametria com RPAS para Atualização Cadastral: Metodologia e Resultados Práticos",
+    event: "DroneShow 2023",
+    location: "São Paulo/SP",
+    year: "2023",
   },
   {
     role: "Coautor",
@@ -48,22 +60,40 @@ const technicalWorks = [
     location: "Santos/SP",
     year: "2017",
   },
+  {
+    role: "Coautor",
+    title: "Aplicação SIGWEB como ferramenta de suporte à população em áreas sujeitas a desastres, aplicado ao bairro de Mãe Luiza, Natal – RN",
+    event: "XVII Simpósio Internacional SELPER",
+    location: "Natal/RN",
+    year: "2016",
+  },
+  {
+    role: "Coautor",
+    title: "Quantificação da Redução da Cobertura Vegetal em Função da Expansão Urbana, no Município de João Pessoa/PB",
+    event: "X Jornada de Educação em Sensoriamento Remoto no Âmbito do Mercosul",
+    location: "João Pessoa/PB",
+    year: "2015",
+  },
 ];
 
 const events = [
   { name: "DroneShow Robotics, SpaceBR Show, MundoGEO Connect", location: "São Paulo/SP", year: "2025" },
   { name: "EU Esri Brasil 2025 (Encontro de Usuários Esri Brasil)", location: "Online", year: "2025" },
+  { name: "Seminário Nacional de Cadastro Territorial Multifinalitário", location: "Brasília/DF", year: "2024" },
   { name: "1º GEOTEC – Encontro de Geotecnologias", location: "João Pessoa/PB", year: "2024" },
   { name: "Esri User Conference", location: "San Diego/EUA (Online)", year: "2024" },
   { name: "MundoGEO Connect 2024", location: "São Paulo/SP", year: "2024" },
   { name: "Water Summit 2023 – Location Intelligence para a Universalização do Saneamento", location: "João Pessoa/PB", year: "2023" },
-  { name: "Seminário Nacional de Cadastro Territorial Multifinalitário", location: "Brasília/DF", year: "2023" },
+  { name: "DroneShow 2023", location: "São Paulo/SP", year: "2023" },
   { name: "I GEOSAB – Geotecnologias no Estudo da Cobertura Vegetal e Recursos Hídricos", location: "Campina Grande/PB", year: "2022" },
   { name: "Workshop de Drones e VANTs aplicados ao Mapeamento", location: "João Pessoa/PB", year: "2022" },
-  { name: "XIX Simpósio Brasileiro de Sensoriamento Remoto", location: "Online", year: "2019" },
-  { name: "Feira DroneShow e MundoGEO Connect", location: "São Paulo/SP", year: "2018" },
-  { name: "XVII Simpósio Brasileiro de Sensoriamento Remoto", location: "João Pessoa/PB", year: "2015" },
-  { name: "XXVI Congresso Brasileiro de Cartografia e V Congresso Brasileiro de Geoprocessamento", location: "Gramado/RS", year: "2015" },
+  { name: "Feira DroneShow e MundoGEO Connect", location: "São Paulo/SP", year: "2019" },
+  { name: "XIX Simpósio Brasileiro de Sensoriamento Remoto", location: "Santos/SP", year: "2019" },
+  { name: "XVIII Simpósio Brasileiro de Sensoriamento Remoto", location: "Santos/SP", year: "2017" },
+  { name: "XVII Simpósio Internacional SELPER", location: "Natal/RN", year: "2016" },
+  { name: "XXVI Congresso Brasileiro de Cartografia", location: "Gramado/RS", year: "2015" },
+  { name: "V Congresso Brasileiro de Geoprocessamento", location: "Gramado/RS", year: "2015" },
+  { name: "X Jornada de Educação em Sensoriamento Remoto", location: "João Pessoa/PB", year: "2015" },
   { name: "I Seminário de Geotecnologias da Paraíba", location: "João Pessoa/PB", year: "2014" },
 ];
 
