@@ -36,13 +36,19 @@ const education = [
 
 const certifications = [
   {
-    name: "CORPAS – Operações com Drones",
+    name: "CORPAS – Operações com Drones (30h)",
     institution: "ENAP (Escola Nacional de Administração Pública)",
     year: "2025",
     highlight: "Nota final: 100",
   },
   {
-    name: "Spatial Data Science: The New Frontier in Analytics",
+    name: "Curso de Processamento de Imagens de Drone no Agisoft Metashape",
+    institution: "Ministrado por Jordy Monteiro",
+    year: "2025",
+    highlight: "Instrutor",
+  },
+  {
+    name: "Spatial Data Science: The New Frontier in Analytics (MOOC)",
     institution: "Esri",
     year: "2023",
   },
@@ -52,14 +58,24 @@ const certifications = [
     year: "2023",
   },
   {
-    name: "ArcGIS Survey123 (Creating and Publishing Surveys)",
+    name: "ArcGIS Survey123 (Creating and Publishing Surveys / Connect)",
     institution: "Esri Academy",
     year: "2023",
   },
   {
-    name: "Going Places with Spatial Analysis",
+    name: "Going Places with Spatial Analysis (MOOC)",
     institution: "Esri",
     year: "2023",
+  },
+  {
+    name: "ArcGIS Urban / Map Layer Basics / ArcGIS Online Basics",
+    institution: "Esri Academy",
+    year: "2022",
+  },
+  {
+    name: "ArcGIS Enterprise: Architecting Your Deployment / Workflow Manager",
+    institution: "Esri Academy",
+    year: "2022",
   },
   {
     name: "Mapeamento Aéreo e Topografia com Drones",

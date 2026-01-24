@@ -10,12 +10,6 @@ const publications = [
     venue: "Revista UD y la Geomática, Núm. 13",
     year: "2019",
   },
-  {
-    type: "TCC",
-    title: "Aplicação de SIG na Gestão Territorial: Estudo de Caso no Município de João Pessoa",
-    venue: "IFPB - Instituto Federal da Paraíba",
-    year: "2016",
-  },
 ];
 
 const technicalWorks = [
@@ -57,24 +51,19 @@ const technicalWorks = [
 ];
 
 const events = [
-  { name: "DroneShow Robotics, SpaceBR Show, MundoGEO Connect", location: "São Paulo/SP", year: "2025" },
+  { name: "DroneShow Robotics, SpaceBR Show, MundoGEO Connect e Expo eVTOL", location: "São Paulo/SP", year: "2025" },
+  { name: "Workshop 'Drones na Segurança Pública e Privada'", location: "São Paulo/SP", year: "2025" },
+  { name: "Encontro de Usuários do QGIS – MundoGEO Connect", location: "São Paulo/SP", year: "2025" },
   { name: "EU Esri Brasil 2025 (Encontro de Usuários Esri Brasil)", location: "Online", year: "2025" },
-  { name: "Seminário Nacional de Cadastro Territorial Multifinalitário", location: "Brasília/DF", year: "2024" },
   { name: "1º GEOTEC – Encontro de Geotecnologias", location: "João Pessoa/PB", year: "2024" },
-  { name: "Esri User Conference", location: "San Diego/EUA (Online)", year: "2024" },
-  { name: "MundoGEO Connect 2024", location: "São Paulo/SP", year: "2024" },
   { name: "Water Summit 2023 – Location Intelligence para a Universalização do Saneamento", location: "João Pessoa/PB", year: "2023" },
-  { name: "DroneShow 2023", location: "São Paulo/SP", year: "2023" },
   { name: "I GEOSAB – Geotecnologias no Estudo da Cobertura Vegetal e Recursos Hídricos", location: "Campina Grande/PB", year: "2022" },
-  { name: "Workshop de Drones e VANTs aplicados ao Mapeamento", location: "João Pessoa/PB", year: "2022" },
-  { name: "Feira DroneShow e MundoGEO Connect", location: "São Paulo/SP", year: "2019" },
-  { name: "XIX Simpósio Brasileiro de Sensoriamento Remoto", location: "Santos/SP", year: "2019" },
+  { name: "Utilização de Drones no Auxílio ao Dimensionamento de Drenagem", location: "João Pessoa/PB", year: "2019" },
   { name: "XVIII Simpósio Brasileiro de Sensoriamento Remoto", location: "Santos/SP", year: "2017" },
   { name: "XVII Simpósio Internacional SELPER", location: "Natal/RN", year: "2016" },
-  { name: "XXVI Congresso Brasileiro de Cartografia", location: "Gramado/RS", year: "2015" },
-  { name: "V Congresso Brasileiro de Geoprocessamento", location: "Gramado/RS", year: "2015" },
-  { name: "X Jornada de Educação em Sensoriamento Remoto", location: "João Pessoa/PB", year: "2015" },
-  { name: "I Seminário de Geotecnologias da Paraíba", location: "João Pessoa/PB", year: "2014" },
+  { name: "XXVI Congresso Brasileiro de Cartografia e V Congresso Brasileiro de Geoprocessamento", location: "Gramado/RS", year: "2015" },
+  { name: "X Semana de Ciência e Tecnologia do IFPB", location: "João Pessoa/PB", year: "2015" },
+  { name: "X Jornada de Educação em Sensoriamento Remoto no Âmbito do Mercosul", location: "João Pessoa/PB", year: "2015" },
 ];
 
 const PublicationsSection = () => {
