@@ -24,8 +24,8 @@ const skillCategories = [
     skills: ["Processamento Digital de Imagens", "Análise de Cobertura Vegetal", "Monitoramento Territorial", "Análise Multitemporal"],
   },
   {
-    title: "Topografia & Modelos 3D",
-    skills: ["Levantamentos Topográficos", "Geração de Modelos 3D", "Aerotriangulação", "Modelagem de Terreno"],
+    title: "Gestão & Liderança",
+    skills: ["Gestão de Projetos", "Gestão de Riscos", "Liderança", "Comunicação", "Planejamento Estratégico"],
   },
   {
     title: "Coleta de Dados",

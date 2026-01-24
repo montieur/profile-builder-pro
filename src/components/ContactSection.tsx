@@ -77,7 +77,7 @@ const ContactSection = () => {
             </motion.a>
 
             <motion.a
-              href="https://www.linkedin.com/in/jordy-jonathan-monteiro-de-azev%C3%AAdo-78a1a6120/"
+              href="https://www.linkedin.com/in/jordy-monteiro"
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: 20 }}
