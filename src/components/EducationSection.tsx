@@ -42,12 +42,6 @@ const certifications = [
     highlight: "Nota final: 100",
   },
   {
-    name: "Curso de Processamento de Imagens de Drone no Agisoft Metashape",
-    institution: "Ministrado por Jordy Monteiro",
-    year: "2025",
-    highlight: "Instrutor",
-  },
-  {
     name: "Spatial Data Science: The New Frontier in Analytics (MOOC)",
     institution: "Esri",
     year: "2023",
