@@ -5,6 +5,13 @@ import { GraduationCap, Award, Calendar, BookOpen } from "lucide-react";
 
 const education = [
   {
+    degree: "Tecnologia em Geoprocessamento",
+    institution: "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB)",
+    type: "Nível Superior Completo",
+    period: "Concluído em 2023",
+    current: false,
+  },
+  {
     degree: "Pós-Graduação Lato Sensu em Docência em Ciência e Tecnologia da Informação",
     institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
@@ -67,13 +74,6 @@ const education = [
       "Geoprocessamento Aplicado",
       "Inteligência de Mercado",
     ],
-  },
-  {
-    degree: "Tecnologia em Geoprocessamento",
-    institution: "Instituto Federal de Educação, Ciência e Tecnologia da Paraíba (IFPB)",
-    type: "Nível Superior Completo",
-    period: "Concluído em 2023",
-    current: false,
   },
 ];
 
