@@ -12,24 +12,11 @@ const education = [
     current: false,
   },
   {
-    degree: "Pós-Graduação Lato Sensu em Docência em Ciência e Tecnologia da Informação",
-    institution: "FACUMINAS",
-    type: "Pós-graduação Lato Sensu",
-    period: "Out 2024 – Abr 2026",
-    current: true,
-    disciplines: [
-      "Programação Web",
-      "Engenharia e Qualidade de Software",
-      "Segurança em Sistemas Web",
-      "Gestão de Processos de Software",
-    ],
-  },
-  {
     degree: "Pós-Graduação Lato Sensu em Inteligência Artificial",
     institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
     period: "Out 2024 – Abr 2026",
-    current: true,
+    current: false,
     disciplines: [
       "Deep Learning",
       "Reinforcement Learning",
@@ -42,7 +29,7 @@ const education = [
     institution: "FACUMINAS",
     type: "MBA",
     period: "Out 2024 – Abr 2026",
-    current: true,
+    current: false,
     disciplines: [
       "Gerenciamento de Riscos",
       "Gestão da Qualidade",
@@ -55,7 +42,7 @@ const education = [
     institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
     period: "Out 2024 – Mar 2026",
-    current: true,
+    current: false,
     disciplines: [
       "Sensoriamento Remoto e VANTs",
       "Fotogrametria e Processamento Digital de Imagens",
@@ -67,7 +54,7 @@ const education = [
     institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
     period: "Jul 2024 – Jan 2026",
-    current: true,
+    current: false,
     disciplines: [
       "Big Data e Gestão de Dados",
       "Estatística Espacial e Geoestatística",
