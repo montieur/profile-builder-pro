@@ -1,29 +1,72 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { GraduationCap, Award, Calendar } from "lucide-react";
+import { GraduationCap, Award, Calendar, BookOpen } from "lucide-react";
 
 const education = [
   {
-    degree: "MBA em Gestão de Projetos",
-    institution: "Faculdade de Minas",
+    degree: "Pós-Graduação Lato Sensu em Docência em Ciência e Tecnologia da Informação",
+    institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
-    period: "Outubro de 2025 – Março de 2026",
+    period: "Out 2024 – Abr 2026",
     current: true,
+    disciplines: [
+      "Programação Web",
+      "Engenharia e Qualidade de Software",
+      "Segurança em Sistemas Web",
+      "Gestão de Processos de Software",
+    ],
   },
   {
-    degree: "VANTs e Drones: Legislação, Planejamento e Aplicações",
-    institution: "Faculdade de Minas",
+    degree: "Pós-Graduação Lato Sensu em Inteligência Artificial",
+    institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
-    period: "Março de 2025 – Julho de 2025",
-    current: false,
+    period: "Out 2024 – Abr 2026",
+    current: true,
+    disciplines: [
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Engenharia de Software para IA",
+      "Classificação e Predição",
+    ],
   },
   {
-    degree: "Geomarketing e Inteligência de Mercado",
-    institution: "Faculdade de Minas",
+    degree: "MBA em Gestão de Projetos",
+    institution: "FACUMINAS",
+    type: "MBA",
+    period: "Out 2024 – Abr 2026",
+    current: true,
+    disciplines: [
+      "Gerenciamento de Riscos",
+      "Gestão da Qualidade",
+      "Gestão Financeira",
+      "Gestão de Processos e Negócios",
+    ],
+  },
+  {
+    degree: "Pós-Graduação Lato Sensu em VANTs e Drones: Legislação, Planejamento e Aplicações",
+    institution: "FACUMINAS",
     type: "Pós-graduação Lato Sensu",
-    period: "Julho de 2024 – Fevereiro de 2025",
-    current: false,
+    period: "Out 2024 – Mar 2026",
+    current: true,
+    disciplines: [
+      "Sensoriamento Remoto e VANTs",
+      "Fotogrametria e Processamento Digital de Imagens",
+      "Sistemas Embarcados para VANTs e Drones",
+    ],
+  },
+  {
+    degree: "Pós-Graduação Lato Sensu em Geomarketing e Inteligência de Mercado",
+    institution: "FACUMINAS",
+    type: "Pós-graduação Lato Sensu",
+    period: "Jul 2024 – Jan 2026",
+    current: true,
+    disciplines: [
+      "Big Data e Gestão de Dados",
+      "Estatística Espacial e Geoestatística",
+      "Geoprocessamento Aplicado",
+      "Inteligência de Mercado",
+    ],
   },
   {
     degree: "Tecnologia em Geoprocessamento",
@@ -123,7 +166,7 @@ const EducationSection = () => {
                     <p className="text-primary text-sm font-medium mb-1">
                       {item.institution}
                     </p>
-                    <div className="flex flex-wrap gap-3 text-xs text-muted-foreground">
+                    <div className="flex flex-wrap gap-3 text-xs text-muted-foreground mb-2">
                       <span className="flex items-center gap-1">
                         <Award size={12} />
                         {item.type}
@@ -133,6 +176,24 @@ const EducationSection = () => {
                         {item.period}
                       </span>
                     </div>
+                    {item.disciplines && item.disciplines.length > 0 && (
+                      <div className="mt-2 pt-2 border-t border-border/50">
+                        <span className="text-xs text-muted-foreground flex items-center gap-1 mb-1.5">
+                          <BookOpen size={12} className="text-primary" />
+                          Principais Disciplinas
+                        </span>
+                        <div className="flex flex-wrap gap-1.5">
+                          {item.disciplines.map((disc, i) => (
+                            <span
+                              key={i}
+                              className="px-2 py-0.5 text-[10px] bg-muted/80 text-muted-foreground rounded-md"
+                            >
+                              {disc}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </motion.div>
                 ))}
               </div>
